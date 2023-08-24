@@ -2,6 +2,7 @@ body {
   margin: 20px;
   padding: 20px;
   background-color: #E5E7EB;
+  font-family: "Volkhov",serif;
 }
 
 .header {
@@ -13,11 +14,57 @@ body {
 .links {
   display: flex;
   gap: 20px;
+  align-items: flex-start;
+  
 }
 
+.links a {
+
+  justify-content: center;
+  text-decoration:none; 
+  color: red;
+  font-size: 20px;
+  
+}
+
+.link_text {
+  font-size: 600 ;
+}
 .header a img {
 
   width: 90px;
   border-radius: 50px;
 }
+
+.title {
+  font-size: 170px;
+  color:#1F2937;
+  width: 200px;
+  padding-left: 30px;
+  margin-top: 40px;
+}
+
+.intro {
+  
+  background: #1F2937;
+  margin: 30px 0;
+  padding: 40px;
+  border-radius: 40px;
+}
+.intro h1 {
+  /* text-align: center; */
+  font-size: 90px;
+  color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 30px;
+  color: aliceblue;
+
+}
+
+.kimi {
+/*  background: url(./pictures/kimi_background.jpg);*/
 }
