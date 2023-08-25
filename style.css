@@ -106,6 +106,20 @@ body {
 
 }
 
+.watchit {
+  display: flex;
+  gap: 40px;
+}
+
+.watch {
+  display: flex;
+  gap: 20px;
+}
+.watch img {
+  border-radius: 20px;
+}
+
+
 .footer {
   /* justify-content: center; */
   text-align: center;
@@ -129,3 +143,18 @@ body {
   font-size: 30px;
 
 }
+
+
+audio::-webkit-media-controls-panel {
+  background-color: #56AEFF;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #B1D4E0;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(177,212,224, .7);
+}
+
